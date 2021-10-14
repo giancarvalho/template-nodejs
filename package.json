@@ -1,0 +1,20 @@
+{
+  "name": "projeto_13_boardcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giancarvalho/boardcamp-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giancarvalho/boardcamp-api/issues"
+  },
+  "homepage": "https://github.com/giancarvalho/boardcamp-api#readme"
+}
