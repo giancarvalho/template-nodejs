@@ -40,7 +40,7 @@ Esse template diminui a burocracia de criar um projeto Node.js, possuindo a maio
 
 Há dois scripts iniciais:
 
-    ```"start": "NODE_ENV=dev nodemon src/server.js",
-    "test": "NODE_ENV=test npx jest"```
+    "start": "NODE_ENV=dev nodemon src/server.js",
+    "test": "NODE_ENV=test npx jest"
 
 ### Fique a vontade para melhorá-lo ou me dar dicas de como fazer isso.
