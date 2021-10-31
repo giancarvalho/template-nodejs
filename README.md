@@ -2,7 +2,7 @@
 
 ## Motivação
 
-Esse template diminui a burocracia de criar um projeto Node.js, possuindo a maior parte das configurações inicias já feitas. 
+Esse template diminui a burocracia de criar um projeto Node.js, possuindo a maior parte das configurações inicias já feitas. O template segue os padrões de projetos Nodejs da Driven Education.
 
 ## Dependencias
 
@@ -43,4 +43,4 @@ Há dois scripts iniciais:
     "start": "NODE_ENV=dev nodemon src/server.js",
     "test": "NODE_ENV=test npx jest"
 
-### Fique a vontade para melhorá-lo ou me dar dicas de como fazer isso.
+### Fique a vontade para melhorar esse template ou me dar dicas de como fazer isso.
