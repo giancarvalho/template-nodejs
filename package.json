@@ -1,26 +1,37 @@
 {
-  "name": "projeto_13_boardcamp",
+  "name": "app",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=dev nodemon src/server.js",
+    "test": "NODE_ENV=test npx jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/giancarvalho/boardcamp-api.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/giancarvalho/boardcamp-api/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/giancarvalho/boardcamp-api#readme",
+  "homepage": "",
   "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-jest": "^27.3.1",
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "pg": "^8.7.1"
+    "jest": "^27.3.1",
+    "joi": "^17.4.2",
+    "pg": "^8.7.1",
+    "supertest": "^6.1.6",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
