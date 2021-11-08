@@ -2,7 +2,7 @@
 
 ## Motivação
 
-Esse template diminui a burocracia de criar um projeto Node.js, possuindo a maior parte das configurações inicias já feitas. O template segue os padrões de projetos Nodejs da Driven Education.
+Esse template diminui a burocracia de criar um server Node.js/Express, possuindo a maior parte das configurações inicias já feitas. O template segue os padrões de projetos da Driven Education.
 
 ## Dependencias
 
