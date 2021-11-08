@@ -2,5 +2,5 @@ DB_USER=postgres
 DB_PASS=123456
 DB_PORT=5432
 DB_HOST=localhost
-DB_DATABASE=mydatabase_dev
-PORT=4000
+DB_DATABASE=mydatabase_test
+PORT=4001

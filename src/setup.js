@@ -1,19 +1,12 @@
 import dotenv from 'dotenv';
 
-let path;
-
 // remember to create your .env files
-switch (process.env.NODE_ENV) {
-  case 'prod':
-    path = '.env';
-    break;
-  case 'test':
-    path = '.env.test';
-    break;
-  default:
-    path = '.env.dev';
-}
+let envFile = '.env.test';
+
+if (process.env.NODE_ENV === 'prod') envFile = '.env';
+
+if (process.env.NODE_ENV === 'dev') envFile = '.env.dev';
 
 dotenv.config({
-  path,
+  path: envFile,
 });
