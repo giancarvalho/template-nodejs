@@ -12,4 +12,3 @@
     "import/extensions": ["error", { "js": "ignorePackages" }]
   }
 }
-//test
