@@ -36,11 +36,12 @@ Esse template diminui a burocracia de criar um server Node.js/Express, possuindo
 
 5 - De um ```npx husky install```
 
-5 - Dẽ um ```npm start```
+5 - Dẽ um ```npm start:dev```
 
 6- Opcionalmente, adicione os detalhes do seu projeto no package.json (nome, url, etc)
 
-Há dois scripts iniciais:
+Há tres scripts iniciais:
+
     "start": "NODE_ENV=prod nodemon src/server.js",
     "start:dev": "NODE_ENV=dev nodemon src/server.js",
     "test": "NODE_ENV=test npx jest"
