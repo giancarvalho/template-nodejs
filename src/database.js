@@ -13,7 +13,7 @@ let config = {
 
 if (process.env.NODE_ENV === 'prod') {
   config = {
-    connection: process.env.DATABASE_URL,
+    connectionString: process.env.DATABASE_URL,
     ssl: {
       rejectUnauthorized: false,
     },
